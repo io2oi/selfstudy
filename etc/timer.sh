@@ -1,8 +1,14 @@
 #!/bin/bash
-echo -n "Duration?: "
-read duration
-echo -n "Rest?: "
-read rest
+
+if [ $@ -ne 3 ]; then
+    echo -n "Duration?: "
+    read duration
+    echo -n "Rest?: "
+    read rest
+else
+    duration=$1
+    rest=$2
+fi
 
 function prtBanner() {
     banner "$1 $2" && sleep 1
