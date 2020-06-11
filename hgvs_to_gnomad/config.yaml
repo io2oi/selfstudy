@@ -1,0 +1,4 @@
+HG19:
+  FASTA: hg19.fa
+TOOL:
+  SAMTOOLS: /usr/local/bin/samtools

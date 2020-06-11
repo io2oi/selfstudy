@@ -2,3 +2,7 @@
 .ipynb_checkpoints
 __pycache__
 *slides.html
+.vscode/
+Untitled.ipynb
+hg19.fa
+hg19.fa.fai
