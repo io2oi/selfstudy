@@ -15,7 +15,7 @@ def worker(arg1):
 def main():
     n_thr = 3
     input = list(range(6))
-    output = run_withpool(worker, input, 3)
+    output = run_withpool(worker, input, n_thr)
     print(output)
     
 if __name__=="__main__":
