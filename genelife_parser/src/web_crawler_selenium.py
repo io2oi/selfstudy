@@ -1,14 +1,15 @@
 import os
 from selenium import webdriver
-from pyvirtualdisplay import Display
+
+# from pyvirtualdisplay import Display
 
 cur_path = os.path.dirname(os.path.abspath(__file__))
 
-display = Display(
-    visible=0,
-    size=(1024, 768),
-)
-display.start()
+# display = Display(
+#     visible=0,
+#     size=(1024, 768),
+# )
+# display.start()
 
 driver = webdriver.Chrome(executable_path=f"{cur_path}/chromedriver")
 # url = "https://www.google.com"
